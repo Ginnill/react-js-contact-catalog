@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+li {
+  color: #262626;
+}
+
+section {
+  margin: 100px 0;
+  padding: 25px;
+}
+
+section.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.center .upon-form {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+section.center .upon-form a {
+  color: dodgerblue;
+}
+/*  */
+.card-contato {
+  background: #f8f8f8;
+  padding: 50px 20px;
+  display: grid;
+  justify-content: center;
+  gap: 15px;
+  transition: box-shadow 300ms ease-in-out;
+}
+.card-contato:hover {
+  box-shadow: 0px 30px 45px -15px silver;
+}
+.card-contato img {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+.card-contato * {
+  text-align: center;
+}
+.card-contato .body .title {
+  font-size: 20px;
+}
+.card-contato .body .title,
+.card-contato .body p {
+  margin: 10px 0;
+}
+.card-contato .body p {
+  line-break: anywhere;
+}
+.card-contato button {
+  margin-top: 15px;
+  padding: 10px 30px;
+  background: dodgerblue;
+  border: none;
+  color: white;
+  outline: 0;
+  cursor: pointer;
+  transition: background 333ms ease-in-out;
+}
+.card-contato button:hover {
+  background: #1e7ede;
+}
